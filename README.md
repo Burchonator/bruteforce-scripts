@@ -2,7 +2,7 @@ Bruteforcing Script
 by burchthehacker
 
 Created a bruteforcing script to assist with bruteforcing CTFs.
-This is the basic scipt and that I will develop.
+This is the basic script that I will develop.
 
 How to use:
 
