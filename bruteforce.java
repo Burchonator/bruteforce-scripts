@@ -25,8 +25,8 @@ public class bruteforce {
     public static void main(String[] args) throws URISyntaxException, IOException, InterruptedException {
         ArrayList<String> username_wordlist = new ArrayList<String>();
         try {
-            // change <your file path>
-            File myObj = new File("<your file path>");
+            // change file path
+            File myObj = new File("usernames2.txt");
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 username_wordlist.add(myReader.nextLine());
@@ -38,8 +38,8 @@ public class bruteforce {
         }
         ArrayList<String> password_wordlist = new ArrayList<String>();
         try {
-            // change <your file path>
-            File myObj = new File("<your file path>");
+            // change file path
+            File myObj = new File("usernames2.txt");
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 password_wordlist.add(myReader.nextLine());

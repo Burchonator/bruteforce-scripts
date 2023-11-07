@@ -18,14 +18,14 @@ Then change the data below where I have commented # change.
 
 import requests
 
-f = open("<your file path>", "r")  # change <your file path>
+f = open("usernames2.txt", "r")  # change file path
 data = f.readlines()
 username_wordlist = []
 for i in data:
     username_wordlist.append(i.replace("\n", ""))
 f.close()
 
-f = open("<your file path>", "r")  # change <your file path>
+f = open("usernames2.txt", "r")  # change file path
 data = f.readlines()
 password_wordlist = []
 for i in data:
@@ -51,4 +51,3 @@ for password in password_wordlist:
 print()
 print("Search Complete")
 print("Found credentials for:", found)
-
